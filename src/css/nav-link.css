@@ -1,0 +1,39 @@
+/* Estilos para el contenedor del enlace */
+.flex-container {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    /* 2px */
+ 
+    /* 6px */
+    background-color: #f3f6f8c4;
+    /* Color de fondo gris claro */
+    padding: 0.75rem 1rem;
+    /* 12px 16px */
+    font-size: 0.875rem;
+    /* 14px */
+    font-weight: 500;
+    color: #000000;
+    /* Color de texto gris */
+    text-decoration: none;
+    /* Eliminar subrayado predeterminado en enlaces */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: 8rem;
+}
+
+.flex-container:hover {
+    background-color: #edf2f7;
+    /* Cambiar color de fondo en hover */
+    color: #1e40af;
+    /* Cambiar color de texto en hover a azul */
+}
+
+/* Estilos específicos para la versión móvil (md:flex-none) */
+.flex-container-mobile {
+    flex: none;
+    justify-content: start;
+    padding: 0.5rem 0.875rem;
+    /* Ajustes para móvil */
+}

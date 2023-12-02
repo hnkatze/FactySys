@@ -1,0 +1,15 @@
+.Init{
+display: flex;
+
+}
+.Navbar{
+display: flex;
+align-items: center;
+align-content: center;
+flex-direction: row;
+text-align: center;
+background-color: aqua;
+}
+.NameLink {
+    margin: 20px 0;
+}
